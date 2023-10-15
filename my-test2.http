@@ -1,0 +1,10 @@
+post http://localhost:8080/tasks/
+Content-Type: application/json
+
+{
+    "description": "gravar aula",
+    "title": "primeira aula do dia",
+    "startAt": "2023-12-10T15:30:00",
+    "endAt":"2023-12-10T13:30:00",
+    "priority":"ALTA",
+}
